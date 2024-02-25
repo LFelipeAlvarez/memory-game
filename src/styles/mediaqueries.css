@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+
+    :root {
+        --fs-h1: 3em;
+        --fs-h2: 2em;
+        --fs-text: 1.25em;
+        --fs-number4x4: 3.5em;
+        --fs-number6x6: 2.75em;
+    }
+
+    .modal .button-primary {
+        width: 16.5rem;
+        height: 3.25rem;
+        font-size: 1.25em;
+    }
+
+    .footer__text--invisible {
+        display: flex;
+    }
+
+    .footer__text--visible {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .footer__item--active::after {
+        display: block;
+    }
+
+    .game-main {
+        padding-top: 3.625rem;
+    }
+}

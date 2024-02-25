@@ -1,0 +1,44 @@
+.main--new__game {
+    height: 100vh;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.8125rem;
+
+
+    h1 {
+        color: var(--white);
+        animation: fadeIn .5s;
+
+    }
+}
+
+.card {
+    background-color: var(--white);
+    width: min(87.2%, 40.875rem);
+    border-radius: .625rem;
+    border-radius: min(2%, 1.25rem);
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: min(6.4vw, 2rem);
+
+    animation: fadeIn .5s;
+
+}
+
+.card__title {
+    margin-top: 0;
+    margin-bottom: .6875rem;
+    font-size: var(--fs-h3);
+    color: var(--grayish-blue);
+}
+
+.card__list {
+    display: flex;
+    gap: .625rem;
+}

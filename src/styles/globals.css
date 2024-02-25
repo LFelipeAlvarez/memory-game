@@ -1,0 +1,61 @@
+:root {
+    --yellow: #FDA214;
+    --yellow-hover: #FFB84A;
+    --gray: #BCCED9;
+    --dark-gray: #304859;
+    --black: #152938;
+    --grayish-white: #F2F2F2;
+    --grayish-blue: #7191A5;
+    --blue: #6395B8;
+    --white: #FCFCFC;
+    --white-secondary: #DFE7EC;
+    --fs-h1: 1.5em;
+    --fs-h2: 1.25em;
+    --fs-h3: 1.125em;
+    --fs-text: 1em;
+    --fs-number4x4: 2.5em;
+    --fs-number6x6: 1.5em;
+}
+
+@font-face {
+    font-family: 'atkinson-hyperlegible';
+    src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'atkinson-hyperlegible';
+}
+
+button {
+    outline: none;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
